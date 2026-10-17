@@ -1,0 +1,19 @@
+{
+  "name": "@aipieksel/deepseek-codex-grok-cli-integration",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "lib/cli-adapter.js",
+  "exports": {
+    ".": "./lib/cli-adapter.js"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "tests"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  }
+}
